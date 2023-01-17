@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Online Score Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Score Tracker</h1>
+        <ul>
+            <input type="radio" id="choice1" name="team" value="fansClub">
+            <label for="choice1">fans club: <span id="fansClub">0</span></label> <br>
+
+            <input type="radio" id="choice2" name="team" value="frozen">
+            <label for="choice2">frozen: <span id="frozen">0</span></label> <br>
+
+            <input type="radio" id="choice3" name="team" value="undecided">
+            <label for="choice3">undecided: <span id="undecided">0</span></label> <br>
+
+            <input type="radio" id="choice4" name="team" value="teamChaos">
+            <label for="choice1">team chaos: <span id="teamChaos">0</span></label> <br>
+            <br>
+
+            <input type="number" name="inputValue" id="inputValue">
+            <button onclick="displayRadioValue()">submit</button>
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
